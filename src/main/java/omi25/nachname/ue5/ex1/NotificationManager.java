@@ -1,10 +1,10 @@
 package omi25.nachname.ue5.ex1;
 
 public class NotificationManager {
-  private ReportGenerator reportGenerator;
-  private Printer printer;
-  private Logger logger;
-  private EmailSender emailSender;
+  public ReportGenerator reportGenerator;
+  public Printer printer;
+  public Logger logger;
+  public EmailSender emailSender;
 
   public NotificationManager() {
     reportGenerator = new ReportGenerator(this);
