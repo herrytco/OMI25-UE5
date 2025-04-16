@@ -1,7 +1,7 @@
-package omi25.nachname.ue5.ex2.blocks;
+package omi25.nachname.ue5.ex3.blocks;
 
-import omi25.nachname.ue5.ex2.Player;
-import omi25.nachname.ue5.ex2.tools.Tool;
+import omi25.nachname.ue5.ex3.Player;
+import omi25.nachname.ue5.ex3.tools.Tool;
 
 public abstract class MinecraftBlock {
   private final String name;

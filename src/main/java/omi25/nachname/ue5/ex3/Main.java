@@ -1,13 +1,13 @@
-package omi25.nachname.ue5.ex2;
+package omi25.nachname.ue5.ex3;
 
 import java.util.ArrayList;
 import java.util.List;
-import omi25.nachname.ue5.ex2.blocks.DirtBlock;
-import omi25.nachname.ue5.ex2.blocks.ExplosionBlock;
-import omi25.nachname.ue5.ex2.blocks.FireBlock;
-import omi25.nachname.ue5.ex2.blocks.LavaBlock;
-import omi25.nachname.ue5.ex2.blocks.MinecraftBlock;
-import omi25.nachname.ue5.ex2.tools.Pickaxe;
+import omi25.nachname.ue5.ex3.blocks.DirtBlock;
+import omi25.nachname.ue5.ex3.blocks.ExplosionBlock;
+import omi25.nachname.ue5.ex3.blocks.FireBlock;
+import omi25.nachname.ue5.ex3.blocks.LavaBlock;
+import omi25.nachname.ue5.ex3.blocks.MinecraftBlock;
+import omi25.nachname.ue5.ex3.tools.Pickaxe;
 
 public class Main {
   public static final int MAP_SIZE = 3;

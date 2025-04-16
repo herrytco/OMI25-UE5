@@ -1,6 +1,6 @@
-package omi25.nachname.ue5.ex2.tools;
+package omi25.nachname.ue5.ex3.tools;
 
-import omi25.nachname.ue5.ex2.Player;
+import omi25.nachname.ue5.ex3.Player;
 
 public class Tool extends Player {
   private final String toolName;

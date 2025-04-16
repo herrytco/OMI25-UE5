@@ -1,4 +1,4 @@
-package omi25.nachname.ue5.ex2;
+package omi25.nachname.ue5.ex3;
 
 public class Player {
   private final String name;
