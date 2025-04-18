@@ -8,7 +8,7 @@ public class SessionManager {
 
   public void login(String username) {
     if (!activeSessions.containsKey(username)) {
-      activeSessions.put(username, new Session(username));
+      activeSessions.put(username, new Session(username, System.currentTimeMillis()));
     }
   }
 
@@ -18,7 +18,7 @@ public class SessionManager {
 
   public void printUsers() {
     for (Session session : activeSessions.values()) {
-      System.out.println(session.getUsername());
+      System.out.println(session.username());
     }
   }
 }
